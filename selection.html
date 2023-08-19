@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selection</title>
+  <link href="selection.css" rel="stylesheet">
+  <script src="selection.js"></script>
+</head>
+<body>
+    
+    <header>
+        <nav class="ft">      
+          <ul>
+            <li class="place"><img src="images/ddh1.jpg" width="50" height="40"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cal.html">Products</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="info.html">EnergyInfo</a></li>
+            <li><a href="selection.html">Energy Selection</a></li>
+            <li><a href="quiz.html">QUIZ</a></li>
+          </ul>
+        </nav>
+      </header>
+      <img src="images/dfn.png" width="300" height="300" class="trd">
+      <section class="rtn">
+        <br>
+  <div class="container">
+    <img src="images/sn3.png" width="100" height="100">
+    <h2 class="rtb">Choose Best Source</h2>
+    <div class="form-group">
+      <label for="region" class="plc">Region:</label>
+      <select id="region">
+        <option value="Baku">Baku</option>
+        <option value="Garabag">Garabag</option>
+        <option value="Aran">Aran</option>
+        <option value="Lankaran">Lankaran</option>
+        <option value="Guba">Guba</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <label for="objectType" class="plc">Object Type:</label>
+      <select id="objectType">
+        <option value="house">House</option>
+        <option value="farm">Farm</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="price" class="plc">Price Range:</label>
+      <section class="price">
+        <input type="number" id="price">
+      </section>
+    </div>
+    <div class="form-group">
+      <label for="areaRange" class="plc">Area Range (in square meters):</label>
+      <section id="areaRange" class="areaRange">
+        <input type="number" id="areaRange">
+      </section>
+    </div>
+    
+    <button onclick="calculateResult()">Submit</button>
+    <div class="result" id="result"></div>
+  </div>
+  <br>
+</section>
+  
+</body>
+</html>

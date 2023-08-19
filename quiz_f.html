@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eco-Friendly Quiz</title>
+  <link href="quiz.css" rel="stylesheet">
+  <script src="quiz.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="ft">      
+      <ul>
+        <li class="place"><img src="images/ddh1.jpg" width="50" height="40"></li>
+        <li><a href="eco_friendly_f.html">Ana səhifə</a></li>
+        <li><a href="index_f.html">Məhsullar</a></li>
+        <li><a href="project_f.html">Layihələr</a></li>
+        <li><a href="info_f.html">Enerjiİnfo</a></li>
+        <li><a href="selection_f.html">Enerji Seçimi</a></li>
+        <li><a href="quiz_f.html">QUIZ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="quiz-container">
+    <h2>Eco-Friendly Quiz</h2>
+    <p class="question">1. Which of the following is a renewable energy source?</p>
+    <div class="options">
+      <label class="option"><input type="radio" name="q1" value="a"> a) Coal</label>
+      <label class="option"><input type="radio" name="q1" value="b"> b) Solar</label>
+      <label class="option"><input type="radio" name="q1" value="c"> c) Oil</label>
+    </div>
+
+    <p class="question">2. What is the process of converting waste materials into reusable materials called?</p>
+    <div class="options">
+      <label class="option"><input type="radio" name="q2" value="a"> a) Recycling</label>
+      <label class="option"><input type="radio" name="q2" value="b"> b) Incineration</label>
+      <label class="option"><input type="radio" name="q2" value="c"> c) Landfill</label>
+    </div>
+
+    <p class="question">3. Which mode of transportation produces zero tailpipe emissions?</p>
+    <div class="options">
+      <label class="option"><input type="radio" name="q3" value="a"> a) Cars</label>
+      <label class="option"><input type="radio" name="q3" value="b"> b) Bicycles</label>
+      <label class="option"><input type="radio" name="q3" value="c"> c) Trucks</label>
+    </div>
+
+    <button class="submit-btn" onclick="submitQuiz()">Submit</button>
+    <p class="result" id="result"></p>
+  </div>
+</body>
+</html>
+    

@@ -1,0 +1,113 @@
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.place{
+  position: absolute;
+  top: 15px;
+  left: 250px;
+}
+/* Header */
+
+header {
+  background-color: white;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: white;
+  border-bottom: 3px solid black;
+  background-color: rgb(7, 164, 44);
+}
+  /* Hero Section */
+  
+  .page-container{
+    background-image: url("images/roo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #45a049;
+  }
+
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    left: 425px;
+    top: 20px;
+    
+  }
+  
+  .project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .project:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project p {
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  

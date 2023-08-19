@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    position: relative;
+    top: 100px;
+  }
+  .chang{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: rgb(89, 89, 243);
+  }
+  .chang:hover{
+    color: rgb(28, 28, 240);
+  }
+  h2 {
+    text-align: center;
+  }
+
+  .tru{
+    font-family:'Times New Roman', Times, serif ;
+  }
+
+.ft{
+  padding: 5px;
+}
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .form-group button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .form-group button:hover {
+    background-color: #45a049;
+  }
+
+  body{
+    background-image: url("images/btr.png");
+    background-size: cover;
+  }
